@@ -3,8 +3,8 @@ services:
     name: scraper-sika-job
     env: python
     schedule: "*/5 8-18 * * *"
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python scrape_and_insert.py"
+    buildCommand: "pip install -r /scripts/requirements.txt"
+    startCommand: "python /scripts/scrape_and_insert.py"
     envVars:
       - key: MONGO_URI
         value: ${MONGO_URI}
