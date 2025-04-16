@@ -2,7 +2,7 @@ services:
   - type: cron
     name: scraper-sika-job
     env: python
-    schedule: "*/15 8-15 * * *"
+    schedule: "*/5 8-18 * * *"
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python scrape_and_insert.py"
     envVars:
