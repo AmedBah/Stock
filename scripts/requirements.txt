@@ -1,5 +1,5 @@
-pandas==1.5.3
-numpy==1.24.4
-selenium==4.9.1
-beautifulsoup4
+selenium
 pymongo
+beautifulsoup4
+pandas
+python-dotenv
